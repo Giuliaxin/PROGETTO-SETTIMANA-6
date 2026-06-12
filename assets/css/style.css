@@ -26,4 +26,14 @@ body {
   background-color: hsl(20, 20%, 15%);
 }
 
+.hero-banner {
+  min-height: 80vh;
+  background-color: hsl(20, 30%, 35%);
+  padding: 4rem 1rem;
+}
+.hero-banner h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
 /*# sourceMappingURL=style.css.map */

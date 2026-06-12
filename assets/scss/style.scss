@@ -65,3 +65,14 @@ body {
   z-index: 100;
   background-color: colors.$color-brand-dark;
 }
+
+.hero-banner {
+  min-height: 80vh;
+  background-color: colors.$color-brand-primary;
+  padding: 4rem 1rem;
+
+  h1 {
+    font-size: typography.$hero-title-size;
+    line-height: 1.1;
+  }
+}
