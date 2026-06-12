@@ -81,3 +81,11 @@ body {
   @include shadow-card-ui;
   background-color: white;
 }
+
+.page-footer {
+  background-color: colors.$color-brand-dark;
+
+  a:hover {
+    color: colors.$color-brand-secondary !important;
+  }
+}
