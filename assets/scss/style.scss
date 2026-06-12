@@ -76,3 +76,8 @@ body {
     line-height: 1.1;
   }
 }
+
+.service-block {
+  @include shadow-card-ui;
+  background-color: white;
+}

@@ -36,4 +36,18 @@ body {
   line-height: 1.1;
 }
 
+.service-block {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.service-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.service-block {
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
