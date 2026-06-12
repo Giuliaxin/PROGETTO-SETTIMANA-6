@@ -14,13 +14,20 @@
       <nav class="navbar navbar-expand-md navbar-dark top-nav">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#studio">Atelier</a>
-          <button class="navbar-toggler" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#nav-menu"
-                  aria-controls="nav-menu" aria-expanded="false"
-                  aria-label="Apri menu">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="nav-menu">
+
+          <div class="d-flex align-items-center order-md-2 gap-3">
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambia tema">
+              <span id="theme-text">Tema scuro</span>
+            </button>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                    aria-controls="nav-menu" aria-expanded="false"
+                    aria-label="Apri menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse order-md-1" id="nav-menu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="#studio">Studio</a></li>
               <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
@@ -35,7 +42,7 @@
       <div class="container">
         <h1 class="fs-1 fw-bold mb-3">Architettura per spaces che parlano</h1>
         <p class="fs-5 mb-4">
-          Progettiamo case, uffici e spazi commerciali con attenzione alla luce, ai materiali e au contesto.
+          Progettiamo case, uffici e spazi commerciali con attention alla luce, ai materiali e au contesto.
         </p>
         <a href="#contatti" class="btn btn-primary btn-lg">Inizia un progetto</a>
       </div>
