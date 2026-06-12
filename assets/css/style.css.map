@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/partials/_fontSize.scss","../scss/partials/_colors.scss"],"names":[],"mappings":"AAyBA;EACE,WC1Be;;;AD0CjB;EACE,kBE3CsB;EF4CtB,cE5CsB;;AF8CtB;EAEE;EACA;;;AAIJ;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;EACA,kBE/DsB","file":"style.css"}

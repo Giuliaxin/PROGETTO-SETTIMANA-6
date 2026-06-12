@@ -1,0 +1,67 @@
+// Atelier — Week Project Settimana VI
+// Definisci qui le tue variabili, mixin, override Bootstrap.
+
+
+// === Variabili (definisci $brand-primary, $brand-secondary, $radius-base, ecc.) ===
+
+
+
+// === Mixin (definisci almeno @mixin card-elevata o equivalente) ===
+
+
+
+// === Override Bootstrap (sovrascrivi .btn-primary, .bg-primary, .text-primary col tuo colore brand) ===
+
+
+
+// === Stili custom delle sezioni (header sticky, hero, servizi, contatti, footer) ===
+
+
+
+@use 'partials/_colors' as colors;
+@use 'partials/_boxMeasure' as sizes;
+@use 'partials/_fontSize' as typography;
+
+
+body {
+  font-size: typography.$font-size-base;
+}
+
+
+@mixin shadow-card-ui {
+  border: none;
+  border-radius: sizes.$base-border-radius;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.btn-primary {
+  background-color: colors.$color-brand-primary;
+  border-color: colors.$color-brand-primary;
+
+  &:hover,
+  &:focus {
+    background-color: darken(colors.$color-brand-primary, 8%);
+    border-color: darken(colors.$color-brand-primary, 8%);
+  }
+}
+
+.text-primary {
+  color: colors.$color-brand-primary !important;
+}
+
+.bg-primary {
+  background-color: colors.$color-brand-primary !important;
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: colors.$color-brand-dark;
+}
